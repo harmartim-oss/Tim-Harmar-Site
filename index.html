@@ -1,82 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tim Harmar Legal & Consulting Services | Civil Litigation, Privacy & Economic Development | Sault Ste. Marie</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Tim Harmar Legal & Consulting Services offers specialized expertise in civil litigation, privacy law, intellectual property, and economic development consulting in Sault Ste. Marie, Ontario. Award-winning lawyer with cutting-edge legal solutions." />
-    <meta name="keywords" content="lawyer Sault Ste Marie, civil litigation, privacy law, intellectual property lawyer, economic development, business law, legal consulting, Ontario lawyer, Tim Harmar, Supreme Court of Canada" />
-    <meta name="author" content="Tim Harmar Legal & Consulting Services" />
-    <meta name="robots" content="index, follow" />
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Tim Harmar Legal & Consulting Services | Expert Legal Solutions" />
-    <meta property="og:description" content="Specialized legal expertise in civil litigation, privacy law, intellectual property, and economic development consulting in Sault Ste. Marie, Ontario." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.timharmar.com" />
-    <meta property="og:image" content="https://www.timharmar.com/og-image.jpg" />
-    <meta property="og:locale" content="en_CA" />
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Tim Harmar Legal & Consulting Services" />
-    <meta name="twitter:description" content="Expert legal solutions in civil litigation, privacy law, intellectual property, and economic development consulting." />
-    <meta name="twitter:image" content="https://www.timharmar.com/twitter-image.jpg" />
-    
-    <!-- Local Business Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LegalService",
-      "name": "Tim Harmar Legal & Consulting Services",
-      "description": "Specialized legal services in civil litigation, privacy law, intellectual property, and economic development consulting",
-      "url": "https://www.timharmar.com",
-      "telephone": "+1-705-999-3657",
-      "email": "tharmar@timharmar.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "",
-        "addressLocality": "Sault Ste. Marie",
-        "addressRegion": "ON",
-        "postalCode": "P6A 4E6",
-        "addressCountry": "CA"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "46.5197",
-        "longitude": "-84.3467"
-      },
-      "areaServed": {
-        "@type": "Place",
-        "name": "Sault Ste. Marie, Ontario, Canada"
-      },
-      "serviceType": [
-        "Civil Litigation",
-        "Privacy Law",
-        "Intellectual Property Law", 
-        "Business Law",
-        "Economic Development Consulting"
-      ],
-      "founder": {
-        "@type": "Person",
-        "name": "Tim J. Harmar",
-        "jobTitle": "Lawyer",
-        "alumniOf": [
-          "University of Windsor Faculty of Law",
-          "York University Osgoode Hall Law School"
-        ]
-      }
-    }
-    </script>
-    
-    <!-- Preload critical resources -->
-    <!-- These were causing 404 errors and have been removed. Vite will handle preloading automatically. -->
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim Harmar | Web Developer & Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- AOS Animate On Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 data-aos="fade-down">Tim Harmar</h1>
+            <p class="subtitle" data-aos="fade-down" data-aos-delay="200">Creative Web Developer & Designer</p>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="400">I build modern, responsive, and user-friendly websites that help businesses grow.</p>
+            <a href="#contact" class="cta-button" data-aos="fade-up" data-aos-delay="600">Let's Talk</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image" data-aos="fade-right">
+                        <!-- Image URL from Pexels -->
+                        <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Modern, clean desk setup">
+                    </div>
+                    <div class="about-text" data-aos="fade-left" data-aos-delay="200">
+                        <h2>About Me</h2>
+                        <p>I am a passionate web developer dedicated to creating high-quality digital experiences. With a strong foundation in front-end technologies and a keen eye for design, I specialize in building websites that are not only visually appealing but also highly functional and optimized for performance.</p>
+                        <p>My goal is to help clients achieve their digital ambitions by translating their vision into a tangible, effective online presence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 data-aos="fade-up">My Work</h2>
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://via.placeholder.com/600x400.png/2c3e50/ecf0f1?text=Project+One" alt="Project 1 Screenshot">
+                        <div class="project-info">
+                            <h3>Project Title One</h3>
+                            <p>A brief description of the project, its goals, and the technologies used.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank">Live Demo</a>
+                                <a href="#" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                        <img src="https://via.placeholder.com/600x400.png/34495e/ecf0f1?text=Project+Two" alt="Project 2 Screenshot">
+                        <div class="project-info">
+                            <h3>Project Title Two</h3>
+                            <p>A brief description of the project, its goals, and the technologies used.</p>
+                            <div class="project-links">
+                                <a href="#" target="_blank">Live Demo</a>
+                                <a href="#" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Add more projects as needed -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container" data-aos="zoom-in">
+                <h2>Get In Touch</h2>
+                <p>Have a project in mind? I'd love to hear from you. Fill out the form below, and I'll get back to you as soon as possible.</p>
+                <form id="contact-form" action="#"> <!-- Add your form endpoint here -->
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tim Harmar. All rights reserved.</p>
+    </footer>
+
+    <!-- AOS Animate On Scroll Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
