@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      // Redirect to the site root while preserving the path for the SPA router
+      const base = '/Tim-Harmar-Site';
+      const path = location.pathname.startsWith(base)
+        ? location.pathname.slice(base.length)
+        : location.pathname;
+      sessionStorage.redirect = path + location.search + location.hash;
+      location.replace(base + '/');
+    </script>
+  </head>
+  <body></body>
+</html>
